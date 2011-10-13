@@ -69,7 +69,9 @@ Uninstall signed apk by commandline:
 
     adb uninstall net.bellbind.alcsearch
 
-## Notice: Use JDK6 jarsigner to sign apk
+## Notice: Do not use JDK7 jarsigner command to sign apk
+
+Use JDK6 jarsigner command.
 
 Signed apk with JDK7 jarsigner is NOT accepted by current android os.
 
