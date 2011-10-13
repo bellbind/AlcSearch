@@ -11,9 +11,9 @@ Example App for Android Intent receive/send
 
 # Build and debug install
 
-    android compile
-    android debug
-    android install
+    ant compile
+    ant debug
+    ant install
 
 # Usage
 
@@ -22,5 +22,5 @@ Example App for Android Intent receive/send
 
 # Uninstall
 
-    android uninstall
+    ant uninstall
 
