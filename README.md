@@ -2,6 +2,11 @@
 
 Example App for Android Intent receive/send
 
+See:
+
+- AndroidManifest.xml
+- src/net/bellbind/alcsearch/AlcSearch.java
+
 # Setup
 
     git clone https://github.com/bellbind/AlcSearch.git
