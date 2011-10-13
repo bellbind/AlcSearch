@@ -39,9 +39,11 @@ You should prepare your own values of them)
 - keystore file: release-key.keystore
 - keystore alias: bellbind
 
-Prepare self-signed keystore (just once)
+## Prepare self-signed keystore (just once)
 
     keytool -genkey -v -keyalg RSA -keystore release-key.keystore -alias bellbind -validity 10000
+
+## Building signed apk
 
 Build unsigned apk to "bin/Send_to_ALC-unsigned.apk":
 
@@ -55,7 +57,11 @@ Sign apk with jarsigner:
 
     jarsigner -keystore release-key.keystore bin/Send_to_ALC.apk bellbind
 
-Check signed apk installable:
+## Handling signed apk
+
+Check signed apk as installable. 
+
+Install signed apk by commandline:
 
     adb install bin/Send_to_ALC.apk
 
