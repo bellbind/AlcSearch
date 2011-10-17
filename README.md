@@ -7,25 +7,27 @@ See:
 - AndroidManifest.xml
 - src/net/bellbind/alcsearch/AlcSearch.java
 
-# Build Setup
+# Application Usage
+
+- Select text on the browser
+- "Share" to "ALC/Eijiro" then browser open the Eijiro page of the text
+
+# Development with android-sdk
+
+## Build Setup
 
     git clone https://github.com/bellbind/AlcSearch.git
     cd AlcSearch
     cp build.properties.default build.properties
-    android update project --path
+    android update project --path .
 
-# Build and debug install
+## Build and debug install
 
     ant compile
     ant debug
     ant install
 
-# Usage
-
-- Select text on the browser
-- "Share" to "ALC/Eijiro" then browser open the Eijiro page of the text
-
-# Uninstall debug version
+## Uninstall debug version
 
     ant uninstall
 
@@ -84,3 +86,7 @@ Signed apk with JDK7 jarsigner is NOT accepted by current android os.
 
     Failure [INSTALL_PARSE_FAILED_NO_CERTIFICATES]
 
+## License
+
+Copyright (c) 2011 [bellbind](http://twitter.com/bellbind)
+Released under MIT licenses.
