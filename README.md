@@ -29,6 +29,11 @@ See:
 
     ant uninstall
 
+# How to prepare icons
+
+The icons are made by launcher icon generator of 
+[Android Asset Studio](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html).
+
 # Appendix: Making release apk
 
 (These are example values in following commands. 
