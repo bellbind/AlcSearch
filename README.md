@@ -18,12 +18,11 @@ See:
 
     git clone https://github.com/bellbind/AlcSearch.git
     cd AlcSearch
-    cp build.properties.default build.properties
+    cp ant.properties.default ant.properties
     android update project --path .
 
 ## Build and debug install
 
-    ant compile
     ant debug
     ant install
 
